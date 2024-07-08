@@ -1,9 +1,10 @@
 .app {
 	margin: 0 auto;
 	width: 390px;
-	height: 780px;
+	height: 100dvh;
 	background-image: url(./assets/bg.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .app-wrapper {
 	position: relative;

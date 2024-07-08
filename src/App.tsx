@@ -1,18 +1,18 @@
-import homeM from './assets/home-m.svg'
-import credits from './assets/credits.png'
-import menuM from './assets/menu.svg'
+import './App.css'
 import bot from './assets/bot.png'
-import nok from './assets/nok.png'
+import credits from './assets/credits.png'
+import emptyWr from './assets/empty-wr.png'
+import empty from './assets/empty.png'
+import full from './assets/full.png'
 import gamerHand from './assets/gamer-hand.png'
+import homeM from './assets/home-m.svg'
+import imageS from './assets/img.png'
+import menuM from './assets/menu.svg'
+import nok from './assets/nok.png'
+import elRight from './assets/Rectangle-right.png'
+import el from './assets/Rectangle.png'
 import stick from './assets/stick.png'
 import tap from './assets/tap.png'
-import empty from './assets/empty.png'
-import emptyWr from './assets/empty-wr.png'
-import full from './assets/full.png'
-import imageS from './assets/img.png'
-import el from './assets/Rectangle.png'
-import elRight from './assets/Rectangle-right.png'
-import './App.css'
 
 function App() {
 	return (
@@ -64,7 +64,9 @@ function App() {
 									<img src={elRight} alt='' />
 								</div>
 								<div className='foo-right__inner'>
-									<h4 className='head-text' style={{ position: 'static' }}>мощность:</h4>
+									<h4 className='head-text' style={{ position: 'static' }}>
+										мощность:
+									</h4>
 									<p className='foo-text'>1234</p>
 								</div>
 							</div>
